@@ -8,7 +8,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import agendaspring.controllers.HomeController;
 
 @EnableWebMvc
-@ComponentScan (basePackageClasses= {HomeController.class})
+@ComponentScan(basePackageClasses= {HomeController.class})
 public class AppWebConfiguration {
 	
 	@Bean
