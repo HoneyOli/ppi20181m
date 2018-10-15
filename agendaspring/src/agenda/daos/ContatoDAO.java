@@ -47,7 +47,7 @@ public class ContatoDAO {
 		List<Contato> result = new ArrayList<>();
 
 		try {
-			PreparedStatement stmt = this.connection.prepareStatement("select * from contatos;");
+			PreparedStatement stmt = connection.prepareStatement("select * from contatos");
 			ResultSet rs = stmt.executeQuery();
 
 			while (rs.next()) {

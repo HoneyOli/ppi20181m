@@ -7,12 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Adicionar Contato</h1>
-<form action="/agendaspring/contatos" method="post">
-<h1>Nome: <input type="text" name="nome"></h1>
-<h1>Email: <input type="text" name="email"> </h1>
-<h1>Endereço: <input type="text" name="endereco"></h1>
-<h1>Data de Nascimento: <input type="text" name="DataNascimento"></h1>
-<button type="submit">Adicionar</button>
+<h1>O contato foi adicionado com sucesso</h1>
 </body>
 </html>
